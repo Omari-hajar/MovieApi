@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-MovieApi/Pods-MovieApi-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AutoCompletion/AutoCompletion.framework
+${BUILT_PRODUCTS_DIR}/CCAutocomplete/CCAutocomplete.framework

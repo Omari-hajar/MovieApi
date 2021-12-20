@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+MovieApi in MovieApi, no dependencies
+MovieApiTests in MovieApi, depends on:
+MovieApi in MovieApi (explicit)
+MovieApiUITests in MovieApi, depends on:
+MovieApi in MovieApi (explicit)

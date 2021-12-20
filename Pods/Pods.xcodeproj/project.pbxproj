@@ -1,0 +1,1229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D230E069B40319713A9DB77DA152D5A /* Pods-MovieApiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AAD19A449952E6D34907F8AD8865C8 /* Pods-MovieApiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10824169A74A04B7C7782E1831D39226 /* AutocompleteCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A27E4EAE9105CC2ECCA7942628CE51 /* AutocompleteCellData.swift */; };
+		21E0349EBB9F40E692C71977B0F3CF27 /* CCAutocomplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB983F0471DFAF8CBD94FA54971FD7D9 /* CCAutocomplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FB3597866038284D277E09A2531AAB /* AutoCompletion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65851D5540F9A760A1A6194F19A17EAA /* AutoCompletion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A88DE2DBB09ABFAC6D0935094B4275 /* AutoCompletionTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A37B7F1E1EF0FA83DEEBFF2E7B30EBD9 /* AutoCompletionTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435E18E4DE83E6567423253FDC89BD1B /* Autocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3230CAED01C2ECD7561E1E0BE447F /* Autocomplete.swift */; };
+		578A0F2B67840CB26DE23438F2F76155 /* AutoCompleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112B316671C5EF3F5900F131532DE89 /* AutoCompleteCell.swift */; };
+		578D957D0DF152544B871D2CF46BA8D3 /* AutoCompletionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D837F4C9AFD0C77C358D24C44C5F7F5F /* AutoCompletionTextField.m */; };
+		5FDD97565F4AE1F17481B9AA9492FFAB /* Pods-MovieApi-MovieApiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD02FF55A58C1CBEB79F2A3DCAB34EA0 /* Pods-MovieApi-MovieApiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B98B1C00664A9F3672233E446F59409 /* Pods-MovieApi-MovieApiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 751968CB569A4BDFD497D81A5884FE0A /* Pods-MovieApi-MovieApiUITests-dummy.m */; };
+		738727DA18636A6B8929057C7AAF9A87 /* AutoCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCFB2A63E60632465AE4ADC8ED17C9B /* AutoCompleteViewController.swift */; };
+		750A3805D7513F2539BF3534C38C2F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		847939F1FBAB5D69D5F7F85877E62F1A /* AutoCompletionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBB0C6703D7441CD3F8AD9CD521CAA9 /* AutoCompletionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A55DC4ECDA130E04DE7D2086D1ECBD /* Pods-MovieApi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E555015224F6E3DF1106B928A0DFB /* Pods-MovieApi-dummy.m */; };
+		990C5AB827BC6BA1CC5A9231A5E39D92 /* Pods-MovieApi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7EA0572DFA97F14A5B1578BE1083FF /* Pods-MovieApi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD9AE2BDC94977437ABB4FD27B1C86C /* AutoCompletion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7CB490357ADB9BB5FCA417B57F508 /* AutoCompletion-dummy.m */; };
+		A3F23876F91597290D47E5C606FC4E28 /* AutoCompletionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B746F5D5D240D51EE8C047BA4A4579C /* AutoCompletionDataSource.m */; };
+		AF2C60B01FA2234478641FDEFCA2E44F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B2745DDFC653856DBAEB7ED59727CC1C /* CCAutocomplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B9B525A6B05148009E891CC9D5E55 /* CCAutocomplete-dummy.m */; };
+		B3EB7186D6E66D3AF83E2BC73FD7846B /* AutocompleteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26546A3649171A3AB44A674FC4B135A0 /* AutocompleteDelegate.swift */; };
+		B67B6E2478FADB45DD98EE95837DEDE6 /* TableViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A57D6929202D11291554457E3491C57 /* TableViewDatasource.swift */; };
+		B95085DE00196C490CF318FE38310DE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BEB44D17B6538F59F323B28D2B404FDE /* Pods-MovieApiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C752DDC99F03B3E2923F760D9FFDCC /* Pods-MovieApiTests-dummy.m */; };
+		D6CA5141A6C1FAFEE9346343E60DF519 /* AutoCompletionDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AD00AB930EAB5825CC6478FA455A1B /* AutoCompletionDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E49E24770F742B082066CFB5AC1870 /* AutoCompletionTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BE20CA38C93F8E5A1BCEB1E386DA87A4 /* AutoCompletionTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E708369D421299E08332FB1501BEDE06 /* DefaultAutoCompleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74234900D8FD83913658178B11EBE09C /* DefaultAutoCompleteCell.xib */; };
+		F05DEE7C4158B1ACCB41C9317B204F3A /* Autocomplete.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6445F1564480B1E36E6291FAA77E46 /* Autocomplete.storyboard */; };
+		F8DC50512749EACF89E122935FF94181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F9C5AF8E22AF3268BC06D727CEE4BBEB /* AutoCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = 685BE609C7BF45D32DC7C5231469F95C /* AutoCompletion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4A10434317C91B5D67C5451C639D80 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7814053E47EF0CC2B433017630A441F0 /* TableViewDelegate.swift */; };
+		FD2583B09A56C0D7FBC795BDC25076A0 /* AutoCompletionTextFieldDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0B04EB96666BFC458CB056D41B7304 /* AutoCompletionTextFieldDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDD5B81DC75DB86A8145A4C71D4CDB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368A8EB4BF932A62B384F99B1F1DF037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6156834392505DA5BFEDF4614C948FCF;
+			remoteInfo = AutoCompletion;
+		};
+		3FACB917BFA72073D576DD08416A2A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06622B049B84DA7EF23B6DF06B84FC9E;
+			remoteInfo = "Pods-MovieApi";
+		};
+		59EFC801CDA61A6A0089B72463024788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F194AE9E61D410EA7BFC05694B53130;
+			remoteInfo = CCAutocomplete;
+		};
+		5AFF54AFAAF01257AA89049F3025AE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F194AE9E61D410EA7BFC05694B53130;
+			remoteInfo = CCAutocomplete;
+		};
+		82670ABF1EB66F88F13D655A94EB8EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6156834392505DA5BFEDF4614C948FCF;
+			remoteInfo = AutoCompletion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0112B316671C5EF3F5900F131532DE89 /* AutoCompleteCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCompleteCell.swift; path = Autocomplete/AutoComplete/AutoCompleteCell.swift; sourceTree = "<group>"; };
+		04485CD45ACEFE0F608562E24729E6A7 /* AutoCompletion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoCompletion.debug.xcconfig; sourceTree = "<group>"; };
+		092436EDC1524882DBC1EFC8F7FD6C45 /* AutoCompletion */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoCompletion; path = AutoCompletion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6B9B525A6B05148009E891CC9D5E55 /* CCAutocomplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCAutocomplete-dummy.m"; sourceTree = "<group>"; };
+		0B746F5D5D240D51EE8C047BA4A4579C /* AutoCompletionDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutoCompletionDataSource.m; path = Framework/AutoCompletion/AutoCompletion/AutoCompletionDataSource.m; sourceTree = "<group>"; };
+		0E6445F1564480B1E36E6291FAA77E46 /* Autocomplete.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Autocomplete.storyboard; path = Autocomplete/AutoComplete/Autocomplete.storyboard; sourceTree = "<group>"; };
+		1BCFB2A63E60632465AE4ADC8ED17C9B /* AutoCompleteViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCompleteViewController.swift; path = Autocomplete/AutoComplete/AutoCompleteViewController.swift; sourceTree = "<group>"; };
+		23F3D07F30E3BEAB4E0626F516195F47 /* AutoCompletion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoCompletion.modulemap; sourceTree = "<group>"; };
+		24CCBF876798BA9B69DDDBB583291684 /* Pods-MovieApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieApi.release.xcconfig"; sourceTree = "<group>"; };
+		26546A3649171A3AB44A674FC4B135A0 /* AutocompleteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutocompleteDelegate.swift; path = Autocomplete/AutoComplete/AutocompleteDelegate.swift; sourceTree = "<group>"; };
+		2E7EA0572DFA97F14A5B1578BE1083FF /* Pods-MovieApi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieApi-umbrella.h"; sourceTree = "<group>"; };
+		2F421DB88ED087E25839986C04A68781 /* Pods-MovieApi-MovieApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieApi-MovieApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31286F0E3E523949F4F9CE297D88BABF /* Pods-MovieApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		37A27E4EAE9105CC2ECCA7942628CE51 /* AutocompleteCellData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutocompleteCellData.swift; path = Autocomplete/AutoComplete/AutocompleteCellData.swift; sourceTree = "<group>"; };
+		37B270201C70ECCDEA4D62DA5AA551C3 /* Pods-MovieApiTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieApiTests-Info.plist"; sourceTree = "<group>"; };
+		3E0B04EB96666BFC458CB056D41B7304 /* AutoCompletionTextFieldDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoCompletionTextFieldDataSource.h; path = Framework/AutoCompletion/AutoCompletion/AutoCompletionTextFieldDataSource.h; sourceTree = "<group>"; };
+		3E71C07B1B74482343705972CEE12376 /* Pods-MovieApi-MovieApiUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieApi-MovieApiUITests-Info.plist"; sourceTree = "<group>"; };
+		3EA8D9DB12DEB901E6C4C64DB51F61A1 /* AutoCompletion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutoCompletion-Info.plist"; sourceTree = "<group>"; };
+		415D38638B6329E5AF85558DEF04D6E9 /* AutoCompletion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoCompletion.release.xcconfig; sourceTree = "<group>"; };
+		455AD87834EF76A80F35FFA2D7AD395D /* CCAutocomplete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCAutocomplete.modulemap; sourceTree = "<group>"; };
+		46BFD37C2819423526F30470ABE1F968 /* CCAutocomplete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCAutocomplete.release.xcconfig; sourceTree = "<group>"; };
+		5473A65EC87B87EC4163135210EB3E6F /* CCAutocomplete-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCAutocomplete-Info.plist"; sourceTree = "<group>"; };
+		54AECD06D2263A1F1EFF010D6F2BEEFB /* Pods-MovieApi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieApi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A57D6929202D11291554457E3491C57 /* TableViewDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewDatasource.swift; path = Autocomplete/AutoComplete/TableViewDatasource.swift; sourceTree = "<group>"; };
+		5C6B3FAF6AF1A5DF9F0FB7745D4F8858 /* Pods-MovieApi-MovieApiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieApi-MovieApiUITests.modulemap"; sourceTree = "<group>"; };
+		65851D5540F9A760A1A6194F19A17EAA /* AutoCompletion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompletion-umbrella.h"; sourceTree = "<group>"; };
+		685BE609C7BF45D32DC7C5231469F95C /* AutoCompletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoCompletion.h; path = Framework/AutoCompletion/AutoCompletion/AutoCompletion.h; sourceTree = "<group>"; };
+		6BA7CB490357ADB9BB5FCA417B57F508 /* AutoCompletion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoCompletion-dummy.m"; sourceTree = "<group>"; };
+		6BD6DB730D49F4E82AF4C073F5D74DAD /* CCAutocomplete-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAutocomplete-prefix.pch"; sourceTree = "<group>"; };
+		6E815BCFFD1589C851D33B9216F8871C /* AutoCompletion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompletion-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74234900D8FD83913658178B11EBE09C /* DefaultAutoCompleteCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DefaultAutoCompleteCell.xib; path = Autocomplete/AutoComplete/DefaultAutoCompleteCell.xib; sourceTree = "<group>"; };
+		751968CB569A4BDFD497D81A5884FE0A /* Pods-MovieApi-MovieApiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieApi-MovieApiUITests-dummy.m"; sourceTree = "<group>"; };
+		7814053E47EF0CC2B433017630A441F0 /* TableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewDelegate.swift; path = Autocomplete/AutoComplete/TableViewDelegate.swift; sourceTree = "<group>"; };
+		86C752DDC99F03B3E2923F760D9FFDCC /* Pods-MovieApiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieApiTests-dummy.m"; sourceTree = "<group>"; };
+		89EDA40BF3E200CF5687045BA0608038 /* Pods-MovieApi-MovieApiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieApi-MovieApiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B679255357D0CDD1C1C6A0672BDAC73 /* Pods-MovieApi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieApi-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC682AE8DD68BB10D67EFCCE180A3C5 /* Pods-MovieApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieApiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DCBBF94FE9A48D0538B916B4DF0B899 /* Pods-MovieApi-MovieApiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieApi-MovieApiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A37B7F1E1EF0FA83DEEBFF2E7B30EBD9 /* AutoCompletionTextFieldDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoCompletionTextFieldDelegate.h; path = Framework/AutoCompletion/AutoCompletion/AutoCompletionTextFieldDelegate.h; sourceTree = "<group>"; };
+		BC979DB65CAAC0EFD7F9E207EFF5B706 /* Pods-MovieApi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieApi-frameworks.sh"; sourceTree = "<group>"; };
+		BE20CA38C93F8E5A1BCEB1E386DA87A4 /* AutoCompletionTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoCompletionTextField.h; path = Framework/AutoCompletion/AutoCompletion/AutoCompletionTextField.h; sourceTree = "<group>"; };
+		C44B8E2AEF897B47B4A12683F3892081 /* Pods-MovieApiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieApiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB9D32832A4646080A450CB4F56ED389 /* Pods-MovieApiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieApiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDBB0C6703D7441CD3F8AD9CD521CAA9 /* AutoCompletionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoCompletionAnimator.h; path = Framework/AutoCompletion/AutoCompletion/AutoCompletionAnimator.h; sourceTree = "<group>"; };
+		CEED9CA8802455D2E219A2B1559A1D0A /* Pods-MovieApiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieApiTests.modulemap"; sourceTree = "<group>"; };
+		D5B74EF87EB29EC16A592FA220072382 /* Pods-MovieApi-MovieApiUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MovieApi-MovieApiUITests"; path = Pods_MovieApi_MovieApiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D837F4C9AFD0C77C358D24C44C5F7F5F /* AutoCompletionTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutoCompletionTextField.m; path = Framework/AutoCompletion/AutoCompletion/AutoCompletionTextField.m; sourceTree = "<group>"; };
+		D87BB630D08B43909B9509F4FAA33F70 /* Pods-MovieApi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieApi-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8AAD19A449952E6D34907F8AD8865C8 /* Pods-MovieApiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieApiTests-umbrella.h"; sourceTree = "<group>"; };
+		D8AD00AB930EAB5825CC6478FA455A1B /* AutoCompletionDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoCompletionDataSource.h; path = Framework/AutoCompletion/AutoCompletion/AutoCompletionDataSource.h; sourceTree = "<group>"; };
+		D8E14245BB28B15FFFC06F5A581ED956 /* Pods-MovieApiTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MovieApiTests"; path = Pods_MovieApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB983F0471DFAF8CBD94FA54971FD7D9 /* CCAutocomplete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAutocomplete-umbrella.h"; sourceTree = "<group>"; };
+		DFB8087A7DF646BEB4E1E74BF4A7FA19 /* Pods-MovieApi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieApi.modulemap"; sourceTree = "<group>"; };
+		E19C5B6CA9F9F428CC1FBE81C86CE831 /* Pods-MovieApi-MovieApiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieApi-MovieApiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6C802ECDBDA32D584AF3EA4CABE3CA8 /* Pods-MovieApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieApi.debug.xcconfig"; sourceTree = "<group>"; };
+		EA078D97AEB8479343D4CEA9FA629FEE /* CCAutocomplete */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCAutocomplete; path = CCAutocomplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB72D9C6645083970735334640AF1391 /* Pods-MovieApi-MovieApiUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieApi-MovieApiUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EEC3230CAED01C2ECD7561E1E0BE447F /* Autocomplete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Autocomplete.swift; path = Autocomplete/AutoComplete/Autocomplete.swift; sourceTree = "<group>"; };
+		F3ED7A8350A327A24DC22208FDDF72F8 /* Pods-MovieApi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MovieApi"; path = Pods_MovieApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78E555015224F6E3DF1106B928A0DFB /* Pods-MovieApi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieApi-dummy.m"; sourceTree = "<group>"; };
+		F86030F69BD48677BB19DE217020A79B /* CCAutocomplete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCAutocomplete.debug.xcconfig; sourceTree = "<group>"; };
+		FD02FF55A58C1CBEB79F2A3DCAB34EA0 /* Pods-MovieApi-MovieApiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieApi-MovieApiUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095077EE2E2EC2D5F150249BF09C89A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95085DE00196C490CF318FE38310DE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430078D03B1095DF2CB583B8C354C9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DC50512749EACF89E122935FF94181 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4575B6BDD60B53E503256CE246CD0F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750A3805D7513F2539BF3534C38C2F48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBA1B0C628CBB23E809D57924F6ABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDD5B81DC75DB86A8145A4C71D4CDB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF2465C56A203FEA65321C277AF1780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2C60B01FA2234478641FDEFCA2E44F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351C7BC699313B70549A03F46A08743A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092436EDC1524882DBC1EFC8F7FD6C45 /* AutoCompletion */,
+				EA078D97AEB8479343D4CEA9FA629FEE /* CCAutocomplete */,
+				F3ED7A8350A327A24DC22208FDDF72F8 /* Pods-MovieApi */,
+				D5B74EF87EB29EC16A592FA220072382 /* Pods-MovieApi-MovieApiUITests */,
+				D8E14245BB28B15FFFC06F5A581ED956 /* Pods-MovieApiTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38F1BC81395DDA7D8496A8E684D35881 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E6445F1564480B1E36E6291FAA77E46 /* Autocomplete.storyboard */,
+				74234900D8FD83913658178B11EBE09C /* DefaultAutoCompleteCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4E2F93D85EB0CC3CDED49F085DF247F0 /* AutoCompletion */ = {
+			isa = PBXGroup;
+			children = (
+				685BE609C7BF45D32DC7C5231469F95C /* AutoCompletion.h */,
+				CDBB0C6703D7441CD3F8AD9CD521CAA9 /* AutoCompletionAnimator.h */,
+				D8AD00AB930EAB5825CC6478FA455A1B /* AutoCompletionDataSource.h */,
+				0B746F5D5D240D51EE8C047BA4A4579C /* AutoCompletionDataSource.m */,
+				BE20CA38C93F8E5A1BCEB1E386DA87A4 /* AutoCompletionTextField.h */,
+				D837F4C9AFD0C77C358D24C44C5F7F5F /* AutoCompletionTextField.m */,
+				3E0B04EB96666BFC458CB056D41B7304 /* AutoCompletionTextFieldDataSource.h */,
+				A37B7F1E1EF0FA83DEEBFF2E7B30EBD9 /* AutoCompletionTextFieldDelegate.h */,
+				C0F35714FF07E985404F54C29052E5B3 /* Support Files */,
+			);
+			name = AutoCompletion;
+			path = AutoCompletion;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BE890F5DED62DD8B9384A4211B78676 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF154D25DC533AFADA2DCEC1C59DDFB /* Pods-MovieApi */,
+				881F70A8DA41171F3D3DEA4A7700C511 /* Pods-MovieApi-MovieApiUITests */,
+				FDDAADFBF4A370AE508E8F95F48980E2 /* Pods-MovieApiTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BF154D25DC533AFADA2DCEC1C59DDFB /* Pods-MovieApi */ = {
+			isa = PBXGroup;
+			children = (
+				DFB8087A7DF646BEB4E1E74BF4A7FA19 /* Pods-MovieApi.modulemap */,
+				54AECD06D2263A1F1EFF010D6F2BEEFB /* Pods-MovieApi-acknowledgements.markdown */,
+				D87BB630D08B43909B9509F4FAA33F70 /* Pods-MovieApi-acknowledgements.plist */,
+				F78E555015224F6E3DF1106B928A0DFB /* Pods-MovieApi-dummy.m */,
+				BC979DB65CAAC0EFD7F9E207EFF5B706 /* Pods-MovieApi-frameworks.sh */,
+				8B679255357D0CDD1C1C6A0672BDAC73 /* Pods-MovieApi-Info.plist */,
+				2E7EA0572DFA97F14A5B1578BE1083FF /* Pods-MovieApi-umbrella.h */,
+				E6C802ECDBDA32D584AF3EA4CABE3CA8 /* Pods-MovieApi.debug.xcconfig */,
+				24CCBF876798BA9B69DDDBB583291684 /* Pods-MovieApi.release.xcconfig */,
+			);
+			name = "Pods-MovieApi";
+			path = "Target Support Files/Pods-MovieApi";
+			sourceTree = "<group>";
+		};
+		881F70A8DA41171F3D3DEA4A7700C511 /* Pods-MovieApi-MovieApiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6B3FAF6AF1A5DF9F0FB7745D4F8858 /* Pods-MovieApi-MovieApiUITests.modulemap */,
+				E19C5B6CA9F9F428CC1FBE81C86CE831 /* Pods-MovieApi-MovieApiUITests-acknowledgements.markdown */,
+				89EDA40BF3E200CF5687045BA0608038 /* Pods-MovieApi-MovieApiUITests-acknowledgements.plist */,
+				751968CB569A4BDFD497D81A5884FE0A /* Pods-MovieApi-MovieApiUITests-dummy.m */,
+				EB72D9C6645083970735334640AF1391 /* Pods-MovieApi-MovieApiUITests-frameworks.sh */,
+				3E71C07B1B74482343705972CEE12376 /* Pods-MovieApi-MovieApiUITests-Info.plist */,
+				FD02FF55A58C1CBEB79F2A3DCAB34EA0 /* Pods-MovieApi-MovieApiUITests-umbrella.h */,
+				2F421DB88ED087E25839986C04A68781 /* Pods-MovieApi-MovieApiUITests.debug.xcconfig */,
+				9DCBBF94FE9A48D0538B916B4DF0B899 /* Pods-MovieApi-MovieApiUITests.release.xcconfig */,
+			);
+			name = "Pods-MovieApi-MovieApiUITests";
+			path = "Target Support Files/Pods-MovieApi-MovieApiUITests";
+			sourceTree = "<group>";
+		};
+		C0F35714FF07E985404F54C29052E5B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23F3D07F30E3BEAB4E0626F516195F47 /* AutoCompletion.modulemap */,
+				6BA7CB490357ADB9BB5FCA417B57F508 /* AutoCompletion-dummy.m */,
+				3EA8D9DB12DEB901E6C4C64DB51F61A1 /* AutoCompletion-Info.plist */,
+				6E815BCFFD1589C851D33B9216F8871C /* AutoCompletion-prefix.pch */,
+				65851D5540F9A760A1A6194F19A17EAA /* AutoCompletion-umbrella.h */,
+				04485CD45ACEFE0F608562E24729E6A7 /* AutoCompletion.debug.xcconfig */,
+				415D38638B6329E5AF85558DEF04D6E9 /* AutoCompletion.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AutoCompletion";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EECD6BD3E95C594FB42B6211628581D3 /* Pods */,
+				351C7BC699313B70549A03F46A08743A /* Products */,
+				6BE890F5DED62DD8B9384A4211B78676 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E49CE63F7998B06D52FEF54A4AC62F3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				455AD87834EF76A80F35FFA2D7AD395D /* CCAutocomplete.modulemap */,
+				0A6B9B525A6B05148009E891CC9D5E55 /* CCAutocomplete-dummy.m */,
+				5473A65EC87B87EC4163135210EB3E6F /* CCAutocomplete-Info.plist */,
+				6BD6DB730D49F4E82AF4C073F5D74DAD /* CCAutocomplete-prefix.pch */,
+				DB983F0471DFAF8CBD94FA54971FD7D9 /* CCAutocomplete-umbrella.h */,
+				F86030F69BD48677BB19DE217020A79B /* CCAutocomplete.debug.xcconfig */,
+				46BFD37C2819423526F30470ABE1F968 /* CCAutocomplete.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCAutocomplete";
+			sourceTree = "<group>";
+		};
+		E8A7CE50550DCDD1F357AC1BB3E2DF8C /* CCAutocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				EEC3230CAED01C2ECD7561E1E0BE447F /* Autocomplete.swift */,
+				0112B316671C5EF3F5900F131532DE89 /* AutoCompleteCell.swift */,
+				37A27E4EAE9105CC2ECCA7942628CE51 /* AutocompleteCellData.swift */,
+				26546A3649171A3AB44A674FC4B135A0 /* AutocompleteDelegate.swift */,
+				1BCFB2A63E60632465AE4ADC8ED17C9B /* AutoCompleteViewController.swift */,
+				5A57D6929202D11291554457E3491C57 /* TableViewDatasource.swift */,
+				7814053E47EF0CC2B433017630A441F0 /* TableViewDelegate.swift */,
+				38F1BC81395DDA7D8496A8E684D35881 /* Resources */,
+				E49CE63F7998B06D52FEF54A4AC62F3D /* Support Files */,
+			);
+			name = CCAutocomplete;
+			path = CCAutocomplete;
+			sourceTree = "<group>";
+		};
+		EECD6BD3E95C594FB42B6211628581D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E2F93D85EB0CC3CDED49F085DF247F0 /* AutoCompletion */,
+				E8A7CE50550DCDD1F357AC1BB3E2DF8C /* CCAutocomplete */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDDAADFBF4A370AE508E8F95F48980E2 /* Pods-MovieApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEED9CA8802455D2E219A2B1559A1D0A /* Pods-MovieApiTests.modulemap */,
+				C44B8E2AEF897B47B4A12683F3892081 /* Pods-MovieApiTests-acknowledgements.markdown */,
+				CB9D32832A4646080A450CB4F56ED389 /* Pods-MovieApiTests-acknowledgements.plist */,
+				86C752DDC99F03B3E2923F760D9FFDCC /* Pods-MovieApiTests-dummy.m */,
+				37B270201C70ECCDEA4D62DA5AA551C3 /* Pods-MovieApiTests-Info.plist */,
+				D8AAD19A449952E6D34907F8AD8865C8 /* Pods-MovieApiTests-umbrella.h */,
+				9DC682AE8DD68BB10D67EFCCE180A3C5 /* Pods-MovieApiTests.debug.xcconfig */,
+				31286F0E3E523949F4F9CE297D88BABF /* Pods-MovieApiTests.release.xcconfig */,
+			);
+			name = "Pods-MovieApiTests";
+			path = "Target Support Files/Pods-MovieApiTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AFAD3700952F23B10802928B08C9E98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDD97565F4AE1F17481B9AA9492FFAB /* Pods-MovieApi-MovieApiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2AC423C9B31BB40CA2A4228192FBFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C5AF8E22AF3268BC06D727CEE4BBEB /* AutoCompletion.h in Headers */,
+				32FB3597866038284D277E09A2531AAB /* AutoCompletion-umbrella.h in Headers */,
+				847939F1FBAB5D69D5F7F85877E62F1A /* AutoCompletionAnimator.h in Headers */,
+				D6CA5141A6C1FAFEE9346343E60DF519 /* AutoCompletionDataSource.h in Headers */,
+				E2E49E24770F742B082066CFB5AC1870 /* AutoCompletionTextField.h in Headers */,
+				FD2583B09A56C0D7FBC795BDC25076A0 /* AutoCompletionTextFieldDataSource.h in Headers */,
+				38A88DE2DBB09ABFAC6D0935094B4275 /* AutoCompletionTextFieldDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E069668158F385C62032BC5254DA037 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D230E069B40319713A9DB77DA152D5A /* Pods-MovieApiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF22E334E58716034F4908C9031C430 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E0349EBB9F40E692C71977B0F3CF27 /* CCAutocomplete-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857E88820D73F994E67004015C14F0B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990C5AB827BC6BA1CC5A9231A5E39D92 /* Pods-MovieApi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06622B049B84DA7EF23B6DF06B84FC9E /* Pods-MovieApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD89EAD7E6E944C3F79C73250D71757 /* Build configuration list for PBXNativeTarget "Pods-MovieApi" */;
+			buildPhases = (
+				857E88820D73F994E67004015C14F0B0 /* Headers */,
+				8B68ECE80618BAF970F9D87D25B56382 /* Sources */,
+				9FBA1B0C628CBB23E809D57924F6ABDF /* Frameworks */,
+				AF60B7B25B6C508BC2C3BD72F24A7551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995130816D29601E21D518133FDD1280 /* PBXTargetDependency */,
+				242CC467534C25452972B5AA7D2D5123 /* PBXTargetDependency */,
+			);
+			name = "Pods-MovieApi";
+			productName = Pods_MovieApi;
+			productReference = F3ED7A8350A327A24DC22208FDDF72F8 /* Pods-MovieApi */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F194AE9E61D410EA7BFC05694B53130 /* CCAutocomplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3239EC6E0DBFD8C432E3B5B2A9554F6B /* Build configuration list for PBXNativeTarget "CCAutocomplete" */;
+			buildPhases = (
+				6EF22E334E58716034F4908C9031C430 /* Headers */,
+				D37379C95DC1E58314BCCEAD30F13247 /* Sources */,
+				4575B6BDD60B53E503256CE246CD0F60 /* Frameworks */,
+				8F204C21D71741C9E00FE8F2EB1B362B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCAutocomplete;
+			productName = CCAutocomplete;
+			productReference = EA078D97AEB8479343D4CEA9FA629FEE /* CCAutocomplete */;
+			productType = "com.apple.product-type.framework";
+		};
+		6156834392505DA5BFEDF4614C948FCF /* AutoCompletion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B07E3AE63337764D1816EC9A36F226E /* Build configuration list for PBXNativeTarget "AutoCompletion" */;
+			buildPhases = (
+				4D2AC423C9B31BB40CA2A4228192FBFF /* Headers */,
+				98CEF4C7914EF133BC2B00B53A177EE5 /* Sources */,
+				CBF2465C56A203FEA65321C277AF1780 /* Frameworks */,
+				687F89786BECDEE17BD2ABCA196D6B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCompletion;
+			productName = AutoCompletion;
+			productReference = 092436EDC1524882DBC1EFC8F7FD6C45 /* AutoCompletion */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B23B742909024214E33CE5AC269256 /* Pods-MovieApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A229A86320E11CDC46339950E8DF747E /* Build configuration list for PBXNativeTarget "Pods-MovieApiTests" */;
+			buildPhases = (
+				4E069668158F385C62032BC5254DA037 /* Headers */,
+				BE3C8FF350F4D854E93AF5063BC97793 /* Sources */,
+				095077EE2E2EC2D5F150249BF09C89A1 /* Frameworks */,
+				DCE4358FA9724800707DF59C0D386B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A768794D6B4DAD1115CA4E34D11D0D60 /* PBXTargetDependency */,
+			);
+			name = "Pods-MovieApiTests";
+			productName = Pods_MovieApiTests;
+			productReference = D8E14245BB28B15FFFC06F5A581ED956 /* Pods-MovieApiTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1AFA144C6E680BE8A5133EFFA823EE8 /* Pods-MovieApi-MovieApiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A100BD674DB2E33463D45A2D4C403AE /* Build configuration list for PBXNativeTarget "Pods-MovieApi-MovieApiUITests" */;
+			buildPhases = (
+				4AFAD3700952F23B10802928B08C9E98 /* Headers */,
+				54E89D8C3464A3A74C8D17FC124F7AD0 /* Sources */,
+				430078D03B1095DF2CB583B8C354C9A1 /* Frameworks */,
+				B70833528C58B90A92CB80D1FD8158DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8024C74F136651735A46EC6BCC8096 /* PBXTargetDependency */,
+				F467FC0DE8434E4AD1015BE6B3D2E9D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MovieApi-MovieApiUITests";
+			productName = Pods_MovieApi_MovieApiUITests;
+			productReference = D5B74EF87EB29EC16A592FA220072382 /* Pods-MovieApi-MovieApiUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 351C7BC699313B70549A03F46A08743A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6156834392505DA5BFEDF4614C948FCF /* AutoCompletion */,
+				1F194AE9E61D410EA7BFC05694B53130 /* CCAutocomplete */,
+				06622B049B84DA7EF23B6DF06B84FC9E /* Pods-MovieApi */,
+				E1AFA144C6E680BE8A5133EFFA823EE8 /* Pods-MovieApi-MovieApiUITests */,
+				82B23B742909024214E33CE5AC269256 /* Pods-MovieApiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687F89786BECDEE17BD2ABCA196D6B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F204C21D71741C9E00FE8F2EB1B362B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05DEE7C4158B1ACCB41C9317B204F3A /* Autocomplete.storyboard in Resources */,
+				E708369D421299E08332FB1501BEDE06 /* DefaultAutoCompleteCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF60B7B25B6C508BC2C3BD72F24A7551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70833528C58B90A92CB80D1FD8158DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE4358FA9724800707DF59C0D386B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E89D8C3464A3A74C8D17FC124F7AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B98B1C00664A9F3672233E446F59409 /* Pods-MovieApi-MovieApiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B68ECE80618BAF970F9D87D25B56382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A55DC4ECDA130E04DE7D2086D1ECBD /* Pods-MovieApi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CEF4C7914EF133BC2B00B53A177EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD9AE2BDC94977437ABB4FD27B1C86C /* AutoCompletion-dummy.m in Sources */,
+				A3F23876F91597290D47E5C606FC4E28 /* AutoCompletionDataSource.m in Sources */,
+				578D957D0DF152544B871D2CF46BA8D3 /* AutoCompletionTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3C8FF350F4D854E93AF5063BC97793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB44D17B6538F59F323B28D2B404FDE /* Pods-MovieApiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37379C95DC1E58314BCCEAD30F13247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435E18E4DE83E6567423253FDC89BD1B /* Autocomplete.swift in Sources */,
+				578A0F2B67840CB26DE23438F2F76155 /* AutoCompleteCell.swift in Sources */,
+				10824169A74A04B7C7782E1831D39226 /* AutocompleteCellData.swift in Sources */,
+				B3EB7186D6E66D3AF83E2BC73FD7846B /* AutocompleteDelegate.swift in Sources */,
+				738727DA18636A6B8929057C7AAF9A87 /* AutoCompleteViewController.swift in Sources */,
+				B2745DDFC653856DBAEB7ED59727CC1C /* CCAutocomplete-dummy.m in Sources */,
+				B67B6E2478FADB45DD98EE95837DEDE6 /* TableViewDatasource.swift in Sources */,
+				FC4A10434317C91B5D67C5451C639D80 /* TableViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242CC467534C25452972B5AA7D2D5123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCAutocomplete;
+			target = 1F194AE9E61D410EA7BFC05694B53130 /* CCAutocomplete */;
+			targetProxy = 59EFC801CDA61A6A0089B72463024788 /* PBXContainerItemProxy */;
+		};
+		4C8024C74F136651735A46EC6BCC8096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoCompletion;
+			target = 6156834392505DA5BFEDF4614C948FCF /* AutoCompletion */;
+			targetProxy = 368A8EB4BF932A62B384F99B1F1DF037 /* PBXContainerItemProxy */;
+		};
+		995130816D29601E21D518133FDD1280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoCompletion;
+			target = 6156834392505DA5BFEDF4614C948FCF /* AutoCompletion */;
+			targetProxy = 82670ABF1EB66F88F13D655A94EB8EEC /* PBXContainerItemProxy */;
+		};
+		A768794D6B4DAD1115CA4E34D11D0D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MovieApi";
+			target = 06622B049B84DA7EF23B6DF06B84FC9E /* Pods-MovieApi */;
+			targetProxy = 3FACB917BFA72073D576DD08416A2A52 /* PBXContainerItemProxy */;
+		};
+		F467FC0DE8434E4AD1015BE6B3D2E9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCAutocomplete;
+			target = 1F194AE9E61D410EA7BFC05694B53130 /* CCAutocomplete */;
+			targetProxy = 5AFF54AFAAF01257AA89049F3025AE29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		097544982EAA4C3381D00699F1A04A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F421DB88ED087E25839986C04A68781 /* Pods-MovieApi-MovieApiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieApi-MovieApiUITests/Pods-MovieApi-MovieApiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieApi-MovieApiUITests/Pods-MovieApi-MovieApiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4447071F3E06F26DFEB96A877FEE6F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C802ECDBDA32D584AF3EA4CABE3CA8 /* Pods-MovieApi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieApi/Pods-MovieApi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieApi/Pods-MovieApi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		528406E9C2285C017EA97ACC90145120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86030F69BD48677BB19DE217020A79B /* CCAutocomplete.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCAutocomplete/CCAutocomplete-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCAutocomplete/CCAutocomplete-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CCAutocomplete/CCAutocomplete.modulemap";
+				PRODUCT_MODULE_NAME = CCAutocomplete;
+				PRODUCT_NAME = CCAutocomplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0B502E245A5E3B0F7F3D1AD54C10F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04485CD45ACEFE0F608562E24729E6A7 /* AutoCompletion.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoCompletion/AutoCompletion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoCompletion/AutoCompletion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AutoCompletion/AutoCompletion.modulemap";
+				PRODUCT_MODULE_NAME = AutoCompletion;
+				PRODUCT_NAME = AutoCompletion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73B3C67222233EEBFC2631D0E272CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415D38638B6329E5AF85558DEF04D6E9 /* AutoCompletion.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoCompletion/AutoCompletion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoCompletion/AutoCompletion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AutoCompletion/AutoCompletion.modulemap";
+				PRODUCT_MODULE_NAME = AutoCompletion;
+				PRODUCT_NAME = AutoCompletion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF2F3C3316071770EEC72482B1566319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC682AE8DD68BB10D67EFCCE180A3C5 /* Pods-MovieApiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieApiTests/Pods-MovieApiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieApiTests/Pods-MovieApiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C889193A4A69960597EDDA4CBB7DCDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BFD37C2819423526F30470ABE1F968 /* CCAutocomplete.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCAutocomplete/CCAutocomplete-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCAutocomplete/CCAutocomplete-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CCAutocomplete/CCAutocomplete.modulemap";
+				PRODUCT_MODULE_NAME = CCAutocomplete;
+				PRODUCT_NAME = CCAutocomplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD1B71946B12C82437A706F701AAD3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CCBF876798BA9B69DDDBB583291684 /* Pods-MovieApi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieApi/Pods-MovieApi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieApi/Pods-MovieApi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F3874BBBAD4827BE28C13808B4E352AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCBBF94FE9A48D0538B916B4DF0B899 /* Pods-MovieApi-MovieApiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieApi-MovieApiUITests/Pods-MovieApi-MovieApiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieApi-MovieApiUITests/Pods-MovieApi-MovieApiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F512239BD96A7F462C64154645A07B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31286F0E3E523949F4F9CE297D88BABF /* Pods-MovieApiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieApiTests/Pods-MovieApiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieApiTests/Pods-MovieApiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A100BD674DB2E33463D45A2D4C403AE /* Build configuration list for PBXNativeTarget "Pods-MovieApi-MovieApiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097544982EAA4C3381D00699F1A04A83 /* Debug */,
+				F3874BBBAD4827BE28C13808B4E352AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD89EAD7E6E944C3F79C73250D71757 /* Build configuration list for PBXNativeTarget "Pods-MovieApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4447071F3E06F26DFEB96A877FEE6F4F /* Debug */,
+				CD1B71946B12C82437A706F701AAD3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3239EC6E0DBFD8C432E3B5B2A9554F6B /* Build configuration list for PBXNativeTarget "CCAutocomplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528406E9C2285C017EA97ACC90145120 /* Debug */,
+				C889193A4A69960597EDDA4CBB7DCDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B07E3AE63337764D1816EC9A36F226E /* Build configuration list for PBXNativeTarget "AutoCompletion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B502E245A5E3B0F7F3D1AD54C10F22 /* Debug */,
+				A73B3C67222233EEBFC2631D0E272CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A229A86320E11CDC46339950E8DF747E /* Build configuration list for PBXNativeTarget "Pods-MovieApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2F3C3316071770EEC72482B1566319 /* Debug */,
+				F512239BD96A7F462C64154645A07B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "f3546c685789853fc596fb8ae810bd68eb65c12a6e7c9752f40e64800e1a5b85"
+build_start_time: [1639917028, 597879886]
+build_end_time: [1639917029, 266901016]
+inputs:
+  "/Users/hajaralomari/Documents/IOS-SWift/MovieApi/MovieApi/AppDelegate.swift": [1639911530, 856291294]
+  "/Users/hajaralomari/Documents/IOS-SWift/MovieApi/MovieApi/SceneDelegate.swift": [1639911530, 858880996]
+  "/Users/hajaralomari/Documents/IOS-SWift/MovieApi/MovieApi/ViewController.swift": [1639916911, 979802131]
+  "/Users/hajaralomari/Documents/IOS-SWift/MovieApi/MovieApi/model/MovieFeed.swift": [1639916126, 217228889]
